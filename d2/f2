@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "enter the choice"
+read a
+case $a in
+a) date;;
+b) touch filename;;
+c)ls;;
+d)pwd;;
+e) for i in { 1..100 }
+   do
+      echo "$i"
+done ;;
+   echo "invalid choice"
+esac
+
